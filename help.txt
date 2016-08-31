@@ -1,0 +1,30 @@
+
+Braintree start:
+
+node btreeserver.js
+
+Run Fat jar File:
+
+java -jar CatalogService.jar
+java -jar DeviceInfoService.jar
+java -jar InventoryService.jar
+
+Catalog:
+
+http://localhost:9001/getProductCatalog?ssoid=8787871&itsontoken=7878786&loc=IN
+
+Inventory:
+
+http://localhost:9003/getInventory?ssoid=8787871&itsontoken=7878786&pId=1
+
+http://localhost:9003/getInventory?ssoid=8787871&itsontoken=7878786&pId=2
+
+http://localhost:9003/getInventory?ssoid=8787871&itsontoken=7878786&pId=3
+
+DeviceInfo:
+
+http://localhost:9002/getDeviceInfo?ssoid=8787871&itsontoken=7878786&pId=1
+
+http://localhost:9002/getDeviceInfo?ssoid=8787871&itsontoken=7878786&pId=2
+
+http://localhost:9002/getDeviceInfo?ssoid=8787871&itsontoken=7878786&pId=3
